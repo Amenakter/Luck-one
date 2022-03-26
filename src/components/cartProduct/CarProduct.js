@@ -2,6 +2,7 @@ import React from 'react';
 import './cartProduct.css'
 
 const CarProduct = (props) => {
+   
     return (
         <div >
             <div className='cartProduct'>

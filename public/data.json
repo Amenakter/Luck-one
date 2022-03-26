@@ -82,23 +82,5 @@
         "name": "BlueBird Nailpolish",
         "price": "300",
         "image": "images/Ni5.png"
-    },
-    {
-        "id": "15",
-        "name": "Comfort Shoes",
-        "price": "800",
-        "image": "images/S1.jpg"
-    },
-    {
-        "id": "16",
-        "name": "WonderFul Color Print",
-        "price": "1000",
-        "image": "images/S2.jpg"
-    },
-    {
-        "id": "17",
-        "name": "ladies Shoes",
-        "price": "500",
-        "image": "images/S7.jpg"
     }
 ]
