@@ -23,3 +23,8 @@
 .half-width p>strong{
     color: rgb(9, 49, 228);
 }
+@media screen and (max-width:576px) {
+    .mainDiv{
+        flex-direction: column;
+    }
+}
