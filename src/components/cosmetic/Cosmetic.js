@@ -16,7 +16,7 @@ const Cosmetic = () => {
     },[])
 
     const handleAddToCart = (product) => {
-        // console.log(product);
+   
         if (product.length === 4) {
             alert("Already 4 product selected")
         }
