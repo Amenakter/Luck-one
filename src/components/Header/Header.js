@@ -12,7 +12,13 @@ const Header = () => {
                     <a href="/product">Product</a>
                     <a href="/order">Order</a>
                 </div>
-             </nav>
+              
+            </nav>
+
+            <div className='header-text'>
+            <h1>Cosmetics Shop</h1>
+            <h3>Your Choise</h3>
+            </div>
         </div>
     );
 };

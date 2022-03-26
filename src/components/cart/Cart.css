@@ -1,4 +1,8 @@
-.cart{
-    position: sticky;
-  top: 0;
+
+
+.cart img{
+  width: 80px;
+  border-radius: 50%;
+  object-fit: cover; 
+  background-color: #fff;
 }

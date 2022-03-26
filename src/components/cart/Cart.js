@@ -1,13 +1,16 @@
 import React from 'react';
+import CarProduct from '../cartProduct/CarProduct';
 import "./Cart.css"
 
-const Cart = ({props}) => {
+const Cart = (props) => {
+   const{name, image}=props.cart
   
     return (
         <div className='cart'>
-            <h3>Selected Product</h3>
-            <p>name:{ props.name}</p>
-           
+         <div className='selectProduct'>
+                <CarProduct name={name} img={image}></CarProduct>
+               
+         </div>
         </div>
     );
 };

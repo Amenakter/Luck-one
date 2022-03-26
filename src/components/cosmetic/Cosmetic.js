@@ -21,8 +21,10 @@ const Cosmetic = () => {
         setCart(newCart)
 
     }
+
     return (
         <div className='products'>
+        
             <div className="product-container">
                 {
                     products.map(product =>
@@ -33,11 +35,16 @@ const Cosmetic = () => {
                }
             </div>
             <div className="card-container">
-                
-                     <Cart cart={cart} ></Cart>
-                
+                <h2>Selected Product:</h2>
+                {
+                    cart.map(cart=><Cart cart= {cart}></Cart>)
+                }
+                <button>Choose one</button>
+                <button>Delete</button>
+              
                
             </div>
+            
         </div>
     );
 };
