@@ -26,5 +26,11 @@
 @media screen and (max-width:576px) {
     .mainDiv{
         flex-direction: column;
+        overflow: hidden;
+        padding: 15px;
+    }
+    .half-width{
+        width: 100%;
+        
     }
 }
