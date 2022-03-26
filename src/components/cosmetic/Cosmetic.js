@@ -39,11 +39,11 @@ const Cosmetic = () => {
 
     return (
         <div>
-            <div  className='header'>
+        <div  className='header'>
             <h1>Cosmetics Shop</h1>
             <h3>Your Choise</h3>
-          </div>
-            <div className='products'>
+        </div>
+    <div className='products'>
         
         <div className="product-container">
             {
@@ -72,7 +72,7 @@ const Cosmetic = () => {
         </div>
         
     </div>
-        </div>
+    </div>
     );
 };
 
