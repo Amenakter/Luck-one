@@ -65,7 +65,7 @@ const Cosmetic = () => {
             }
             <div className='cart-btn'>
             <button onClick={()=>chooseProduct(cart)}>Choose one</button>
-            <button onClick={deleted}>Delete</button>
+            <button onClick={deleted}>Choose Again</button>
           </div>
           
            
